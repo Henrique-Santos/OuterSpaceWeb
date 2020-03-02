@@ -1,0 +1,76 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image:url("../imgs/BackSpace.jpg");
+}
+
+.linkbtn{
+    text-decoration: none !important;
+}
+
+.font{
+    -webkit-text-stroke-width: 0.8px; /* largura da borda */
+    -webkit-text-stroke-color: #ffee00; /* cor da borda */
+    color: #000000;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+.box{
+    margin-top: 95px;
+    width: 400px; 
+    padding:15px; 
+    background-color: #ffffffb3; 
+    border-radius: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.logo{
+    position: relative;
+    top: 120px;
+    left: 390px; 
+}
+
+.logoTG{
+    position: relative;
+    top: 50px;
+    left: 620px;
+}
+
+.saudacoes{
+    margin-top: 100px;
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.fadeImg {
+    opacity:0;
+    -webkit-animation: fadeIn 5s ease-in-out;
+    -moz-animation: fadeIn 5s ease-in-out;
+    -o-animation: fadeIn 5s ease-in-out;
+    animation: fadeIn 5s ease-in-out; 
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    -o-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;}
+    
+.fadeImg-delay {	
+    -webkit-animation-delay:3s;
+    -moz-animation-delay:3s;
+    -o-animation-delay:3s;
+    animation-delay:3s;
+}

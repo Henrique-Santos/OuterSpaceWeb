@@ -1,0 +1,28 @@
+body{
+    overflow-x: hidden;
+    overflow-y: scroll !important;
+    background-image:url("../imgs/BackSpace.jpg");
+}
+
+.linkbtn{
+    text-decoration: none !important;
+}
+
+.font{
+    -webkit-text-stroke-width: 0.8px; /* largura da borda */
+    -webkit-text-stroke-color: #ffee00; /* cor da borda */
+    color: #000000;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+/*Tela de cadastro de Fase*/
+.botoes{
+    margin-left: 375px;
+}
+
+.titulo{
+    width: 350px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+}

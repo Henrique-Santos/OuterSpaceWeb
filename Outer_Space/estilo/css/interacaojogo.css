@@ -1,0 +1,33 @@
+.font{
+    -webkit-text-stroke-width: 0.8px; /* largura da borda */
+    -webkit-text-stroke-color: #ffee00; /* cor da borda */
+    color: #000000;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+.resposta{
+    margin-top: 115px;
+    width: 500px; 
+    padding:15px; 
+    background-color: #ffffffb3; 
+    border-radius: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.linkbtn{
+    text-decoration: none !important;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image:url("../imgs/BackSpace.jpg");
+}
+
+.fontResposta{
+    -webkit-text-stroke-width: 0.8px; /* largura da borda */
+    -webkit-text-stroke-color: #000000; /* cor da borda */
+    color: #000000;
+    font-family: 'Orbitron', sans-serif; 
+
+}

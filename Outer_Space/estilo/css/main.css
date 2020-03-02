@@ -1,0 +1,145 @@
+.login{
+  margin-top: 115px;
+  width: 500px; 
+  padding:15px; 
+  background-color: #ffffffb3; 
+  border-radius: 20px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.boxCadastro{
+  line-height: 40%;
+  margin-top: 50px;
+  width: 550px;
+  padding: 15px;
+  background-color: #ffffffb3;
+  border-radius: 20px;
+  /*font-family: 'Comfortaa', cursive;*/
+  font-family: 'Orbitron', sans-serif;
+}
+
+.boxEsqueciSenha{
+  line-height: 40%;
+  margin-top: 82px;
+  width: 550px;
+  padding: 15px;
+  background-color: #ffffffb3;
+  border-radius: 20px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.boxMsg{
+  margin-top: 175px;
+  width: 500px; 
+  padding:15px; 
+  background-color: #ffffffb3; 
+  border-radius: 20px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.linkbtn{
+  text-decoration: none !important;
+}
+
+.font{
+  -webkit-text-stroke-width: 0.8px; /* largura da borda */
+  -webkit-text-stroke-color: #ffee00; /* cor da borda */
+  color: #000000;
+  font-family: 'Orbitron', sans-serif; 
+}
+
+/*Tela de jogo*/
+body{
+  /* Não mostra a barra de rolagem */
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-image:url("../imgs/BackSpace.jpg");
+}
+h3{
+  color: #6D00BF; /*#3BD1D8*/
+}
+
+.naveJog{
+  /* Dimensão da imagem da nave */
+  width: 60px;
+  height: 70px;
+  /* Imagem da nave */
+  background-image:url("../imgs/nave.png");
+  position: absolute;
+}
+
+.telaMsg{
+  position: absolute;
+  margin-left: -25%;
+  margin-top: -25px;
+  left: 50%;
+  width: 720px;
+  height: 505px;
+  display: none;
+}
+
+#vidaPlaneta{
+  border: 2px solid #fff;
+  width: 300px;
+  height: 20px;
+  background: #fff;
+}
+
+#barraPlaneta{
+  width: 300px;
+  height: 20px;
+  background-color: #cc0a0a;
+}
+
+
+
+.tiroJog{
+  width: 8px;
+  height: 8px;
+  background: #F2E205;
+  border-radius: 8px;
+  position: absolute;
+}
+
+.meteoro{
+  width: 50px;
+  height: 50px;
+  background-image:url("../imgs/meteoro_top.png");
+  position: absolute;
+}
+
+.explosaoChao{
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+
+.explosaoAr{
+  width: 70px;
+  height: 62px;
+  position: absolute;
+}
+
+.pontuacao{
+  position : absolute;
+  top: 20px;
+  left: 1175px;
+  color:yellow;
+  z-index: 9999999;
+  font-family: 'Orbitron', sans-serif;
+
+}
+.maxponto{
+  position : absolute;
+  top: 20px;
+  left: 1000px;
+  color:yellow;
+  z-index: 9999999;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+
+
+
+
